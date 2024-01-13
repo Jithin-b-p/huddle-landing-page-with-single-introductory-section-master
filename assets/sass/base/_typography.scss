@@ -1,0 +1,49 @@
+body {
+  font-family: var(--ff-primary);
+  color: hsl(var(--color-neutral));
+}
+
+.introductory-section__details {
+  text-align: center;
+  @media only screen and (min-width: 84.3125em) {
+    text-align: left;
+  }
+  &--heading-1 {
+    font-size: 2.46875rem;
+    font-weight: var(--fw-600);
+
+    @media only screen and (max-width: 36.5em) {
+      font-size: 1.6rem;
+    }
+  }
+  &--heading-2 {
+    font-size: 2.5rem;
+    font-weight: var(--fw-600);
+
+    @media only screen and (max-width: 36.5em) {
+      font-size: 1.6rem;
+    }
+  }
+
+  &--summary {
+    font-family: var(--ff-secondary);
+    font-size: 1.1rem;
+    font-weight: var(--fw-400);
+
+    @media only screen and (max-width: 36.5em) {
+      font-size: 1rem;
+    }
+  }
+
+  &--btn {
+    font-size: 1.1rem;
+    color: hsl(var(--color-primary));
+    transition: all 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      color: hsl(var(--color-neutral));
+      background-color: hsl(var(--color-secondary));
+    }
+  }
+}

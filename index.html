@@ -15,9 +15,16 @@
     <title>
       Frontend Mentor | Huddle landing page with single introductory section
     </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <img src="./assets/images/logo.svg" alt="huddle logo" />
     </header>
 
@@ -29,9 +36,12 @@
         />
 
         <div class="introductory-section__details">
-          <h1 class="introductory-section__details--heading">
-            Build The Community Your Fans Will Love
+          <h1 class="introductory-section__details--heading-1">
+            Build The Community
           </h1>
+          <h2 class="introductory-section__details--heading-2">
+            Your Fans Will Love
+          </h2>
 
           <summary class="introductory-section__details--summary">
             Huddle re-imagines the way we build communities. You have a voice,
@@ -43,5 +53,25 @@
         </div>
       </section>
     </main>
+
+    <footer class="footer">
+      <div class="social-links">
+        <a class="social-links__facebook" href="#"
+          ><svg>
+            <use xlink:href="./assets/images/social-sprite.svg#facebook"></use>
+          </svg>
+        </a>
+        <a class="social-links__twitter" href="#">
+          <svg>
+            <use xlink:href="./assets/images/social-sprite.svg#twitter"></use>
+          </svg>
+        </a>
+        <a class="social-links__instagram" href="#">
+          <svg>
+            <use xlink:href="./assets/images/social-sprite.svg#instagram"></use>
+          </svg>
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
