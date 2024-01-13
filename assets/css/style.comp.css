@@ -26,6 +26,10 @@ body {
   display: flex;
   flex-direction: column;
 }
+.introductory-section__image {
+  width: auto;
+  height: auto;
+}
 @media only screen and (max-width: 36.5em) {
   .introductory-section {
     margin-block-start: 3.7rem;
