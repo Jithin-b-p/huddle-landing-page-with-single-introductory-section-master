@@ -29,6 +29,11 @@ body {
   display: flex;
   flex-direction: column;
 
+  &__image {
+    width: auto;
+    height: auto;
+  }
+
   @media only screen and (max-width: 36.5em) {
     margin-block-start: 3.7rem;
   }
